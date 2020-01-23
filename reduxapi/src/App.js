@@ -6,7 +6,6 @@ import DisplayGif from './components/DisplayGif'
 function App() {
   return (
     <div className="App">
-      hi
       <DisplayGif/>
     </div>
   );
