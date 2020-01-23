@@ -23,6 +23,13 @@ const Button = styled.button`
     border: none;
     border-radius: 5px;
     box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    cursor: pointer;
+
+    &:hover {
+        color: #34ace0;
+        background: white;
+        border: 3px solid #34ace0;
+    }
 `;
 
 const GifDiv = styled.div`
