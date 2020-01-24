@@ -30,6 +30,17 @@ const Button = styled.button`
         background: white;
         border: 3px solid #34ace0;
     }
+
+    @media(max-width: 820px){
+        // width: 20%
+        font-size: .8rem;
+        width: 40%;
+    }
+    @media(max-width: 580px){
+        // width: 20%
+        font-size: .8rem;
+        width: 60%;
+    }
 `;
 
 const GifDiv = styled.div`
@@ -86,6 +97,10 @@ const Title = styled.h1`
     // margin-top: 0;
     color: white;
     text-shadow: 2px 2px #000;
+
+    @media(max-width: 730px){
+        font-size: 1.5rem;
+    }
 `;
 
 const CTADiv = styled.div`
@@ -100,7 +115,11 @@ const TitleP = styled.p`
     font-size: 1.1rem;
     text-shadow: 2px 2px #000;
     // box-shadow: 0.3em 0.3em 1em rgba(200,200,200,1);
-    color: white
+    color: white;
+
+    @media(max-width: 730px){
+        font-size: .8rem;
+    }
 `;
 
 
