@@ -131,7 +131,7 @@ const DisplayGif = props => {
                 <TitleDiv>
                     <CTADiv>
                         <Title>Random Gifs</Title>
-                        <TitleP>Don't be a sad pug.<br></br> Get a gif you cheer you up!</TitleP>
+                        <TitleP>Don't be a sad pug.<br></br> Get a gif to cheer you up!</TitleP>
                         <Button onClick={props.getGif}>GET GIF</Button>
                     </CTADiv>
                 </TitleDiv>
