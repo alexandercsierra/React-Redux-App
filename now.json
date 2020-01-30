@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "reduxapi",
+    "builds": [{ "src": "reduxapi/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "reduxapi/$1" }
+    ]
+}
